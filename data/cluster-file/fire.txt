@@ -1,0 +1,4 @@
+12| 13.002| 14.001| 'The whole building is burning.'
+14| 13.002| 14.004| 'The room is on fire'
+15| 13.002| 14.05| 'Fire! Fire! Run, run'
+11| 13.001| 14.002| 'The whole ##fire building has collapsed after the fire incident. #fire'

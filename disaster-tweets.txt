@@ -1,0 +1,227 @@
+{
+   "data": [ 
+		{ 	"tweetId":"11",
+		    "uname":"Max Mustermann",
+		    "text": "The whole ##fire building has collapsed after the fire incident. #fire",
+		    "location":["13.001", "14.002"],
+		    "time":"01.01.2001"
+		},
+		{ 	"tweetId":"12",
+		    "uname":"Max Mustermann",
+		    "text": "The whole building is burning.",
+		    "location":["13.002", "14.001"],
+		    "time":"01.01.2001"
+		},
+		{ 	"tweetId":"13",
+		    "uname":"Max Mustermann",
+		    "text": "Please call firefighter.",
+		    "location":["13.001", "14.002"],
+		    "time":"01.01.2001"
+		},
+		{ 	"tweetId":"14",
+		    "uname":"Max Mustermann",
+		    "text": "The room is on fire",
+		    "location":["13.002", "14.004"],
+		    "time":"01.01.2001"
+		},
+		{ 	"tweetId":"15",
+		    "uname":"Max Mustermann",
+		    "text": "Fire! Fire! Run, run",
+		    "location":["13.002", "14.05"],
+		    "time":"01.01.2001"
+		},
+		{ 	"tweetId":"22",
+		    "uname":"Max Mustermann",
+		    "text": "I was at a restaurant Dragon-Fire. In front of my eyes a man was shot dead",
+		    "location":["13.002", "14.0"],
+		    "time":"01.01.2001"
+		},
+		{ 	"tweetId":"23",
+		    "uname":"Max Mustermann",
+		    "text": "Carolina officer investigated before: A South Carolina police officer charged with murder after shooting 2 people. http://t.co/gJ6pJVtaa9 #Skibabs",
+		    "location":["13.002", "14.0"],
+		    "time":"01.01.2001"
+		},
+		{ 	"tweetId":"24",
+		    "uname":"Max Mustermann",
+		    "text": "RT @TamerELG: Incredible video of South Carolina cop shooting a retreating, unarmed man and possibly planting evidence  http://t.co/3WUIA4Z",
+		    "location":["13.002", "14.0"],
+		    "time":"01.01.2001"
+		},
+		{ 	"tweetId":"25",
+		    "uname":"Max Mustermann",
+		    "text": "RT @Zhitnipalzhi: @Conflict_Report Lol. After a day of shooting artillery, as they say, and this in November",
+		    "location":["67.23", "11.99"],
+		    "time":"01.01.2001"
+		},
+		{
+		   "tweetId":"33",
+		    "uname":"Max Mustermann",
+		    "text":"Emergency. We are flooded!!",
+		    "location":["14.11", "-13.14"],
+		    "time":"Developer"
+		},
+		{
+		   "tweetId":"34",
+		    "uname":"Max Mustermann",
+		    "text":"We are raising funds for flood relief",
+		    "location":["14.25", "-13.14"],
+		    "time":"Developer"
+		},
+		{
+		    "tweetId":"44",
+		    "uname":"Max Mustermann",
+		    "text":"Water water everywhere. But not a drop of water to drink.",
+		    "location":["14.08", "-13.151"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"45",
+		    "uname":"Max Mustermann",
+		    "text":"Mineral water costs more than beer in Germany.",
+		    "location":["14.08", "-13.151"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"55",
+		    "uname":"Max Mustermann",
+		    "text":"We felt the tremor. #earthquake #disaster #US",
+		    "location":["15.09", "24.90"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"56",
+		    "uname":"Max Mustermann",
+		    "text":"Back back from Nepal. Experienced the horror of earthquake.",
+		    "location":["15.08", "24.89"],
+		    "time":"01.01.2001"
+		}, 
+		{
+		    "tweetId":"57",
+		    "uname":"Max Mustermann",
+		    "text":"NepalMonitor.org SMS Alert: Kathmandu/May 14, Mangalbar ko bhukampa ma pari mrityu hune ko sankhya 96 pugyo, 2500 bhanda badhi ghaite. Death toll from the May 12 quake and aftershocks has so far reached 96 while the score of injured recorded at 2,563. The deaths are 11 in Kathmandu Valley, 40 in Dolakha, 16 in Sindhupalchowk, 11 in Ramechhap, three each in Sindhuli, Sarlahi and Mahottari, two each in Mahottari, Rautahat and Gorkha and one each in Dhading, Nuwakot, Sarlahi, Dhanusha and Terhathum, said Nepal Police's Deputy Inspector General (DIG) Kamal Singh Bam.",
+		    "location":["15.08", "24.81"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"58",
+		    "uname":"Max Mustermann",
+		    "text":"Earthquake measuring 5.9 magnitude strikes in Moluccas, Indonesia: USGS: SYDNEY (Reuters) - An undersea… http://t.co/jTEcVz3XJw #Skibabs360",
+		    "location":["15.07", "24.89"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"59",
+		    "uname":"Max Mustermann",
+		    "text":"5.9 mag undersea earthquake has struck in Moluccas, Indonesia - USGS. No immediate reports of damage. #earthquake #Indonesia",
+		    "location":["15.08", "24.79"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"60",
+		    "uname":"Max Mustermann",
+		    "text":"i woke up from the earthquake and i thought i was dreaming.. when i checked facebook, i knew it was an earthquake hahaha lol #Egypt",
+		    "location":["7.123", "24.89"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"61",
+		    "uname":"Max Mustermann",
+		    "text":"And it's raining after the earthquake while it was 35 degrees Celsius today...even nature is going bananas #Cairo #Egypt",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"161",
+		    "uname":"Max Mustermann",
+		    "text":"#ISIS advances in #Yarmouk camp despite the fierce clashes and the surface-to-surface rockets bombardment by #Assad army.. #Syria",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"162",
+		    "uname":"Max Mustermann",
+		    "text":"Suspected bomb makers killed in northern Mali blast: ABIDJAN (Reuters) - One or two suspected bomb… http://t.co/axCX8eQFrS #Skibabs360",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"163",
+		    "uname":"Max Mustermann",
+		    "text":"Syria: Rebels storming al-Fanar military checkpoint after bombing it by a tunnel.",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"164",
+		    "uname":"Max Mustermann",
+		    "text":"Bab al Hawa Hospital - This little girl & her infant sister were injured by Assad's explosive barrel bombing a school that was housing displaced people near Sarakeb- Idlib. She was hit by a shrapnel in her face, which led to the loss of her lower lip, most of her upper and lower teeth, multiple fractures...She had to undergo extensive surgery, with plates installed in her jaw. She is being monitored in the children’s intensive care unit at the hospital. Speedy recovery... & Bless the honorable doctors of Bab al Hawa Hospital..Rest in SHAME humanity",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"165",
+		    "uname":"Max Mustermann",
+		    "text":"#Colombia to extend suspension of bombing raids on rebels http://t.co/LKnbT3cgj3 #FARC",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"166",
+		    "uname":"Max Mustermann",
+		    "text":"Two officers dead, three injured in latest Arish bombing http://t.co/OC5uNAKQ9F",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"167",
+		    "uname":"Max Mustermann",
+		    "text":"#SeriouslyNews The US air force now refuels Arab planes, bombing #Yemen. So now Obama is actively involved in 2 air wars in the region.",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"161",
+		    "uname":"Max Mustermann",
+		    "text":"Assad Escalates Bombing of Idlib  With his militia now driven out of Idlib by rebel fighters, the Assad regime has embarked on a bombing campaign on residential neighborhoods in the city, causing huge destruction in residential buildings and public facilities. Idlib National Hospital is now closed down due to the massive damage caused by air raids, while Syrian Red Crescent teams were not spared bombing. The fierce bombing on the city caused a massive exodus of civilians, estimated at over 70% of the population. President Khoja said that the bombardment of Idlib is part of Assad’s adopted strategy since the very beginning of the revolution towards the liberated areas. “Assad’s strategy aims to wreak death and destruction in every area he loses to rebels, and to kill any chance for Syrians in the liberate areas to establish civil governance or restore public services,” Khoja said.Read More:  http://ow.ly/LiUHh  #Idlib #EnoughWithAssad",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"999",
+		    "uname":"Max Mustermann",
+		    "text":"bulding collapsed near by GEMS, Khumaltar. Few people are trapped inside",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"998",
+		    "uname":"Max Mustermann",
+		    "text":"No destructive, Pacific-wide #tsunami is expected from PNG 7.7 quake, the Pacific Tsunami Warning Center said http://t.co/QBqw5dxnRw",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"997",
+		    "uname":"Max Mustermann",
+		    "text":"Hundreds of people return home in Philippines as typhoon weakens: MANILA (Reuters) - Hundreds of people… http://t.co/4ZDlNFOptI #Skibabs360",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"996",
+		    "uname":"Max Mustermann",
+		    "text":"#Philippines braces for typhoon over Easter http://t.co/cilEUks4Bq #Maysak http://t.co/c3wes924sa",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		},
+		{
+		    "tweetId":"995",
+		    "uname":"Max Mustermann",
+		    "text":"RT @SaveChildrenPH: #SaveTheChildren responded to 103 emergencies in 2014. From typhoon #Haiyan to #Ebola - thank you for your support!",
+		    "location":["7.11", "24.55"],
+		    "time":"01.01.2001"
+		}
+		
+	]
+}

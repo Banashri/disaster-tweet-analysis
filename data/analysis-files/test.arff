@@ -1,0 +1,968 @@
+@relation disaster_tweets
+
+@attribute text string
+@attribute class_attr {derailment, fire, crash, wildfire, earthquake, bombings, shooting, flood, building_collapse, typhoon, explosion}
+
+@data
+'declare state emergency due flood resident be move community centre albert',?
+'need help emergency line be set up call',?
+'update latest surround area',?
+'gallery photo flood alberta inc bragg creek chain lake',?
+'major risk flood calgary follow direction here stay tune please',?
+'resident ab ask evacuate rapid flood occur',?
+'volunteer now strand inside high river general hospital water recede ab',?
+'first emergency shelter southland leisure centre',?
+'move high ground rapid flood force evacuation high river calgary',?
+'due flood part calgary be evacuate ask find shelter prepare',?
+'amp need help emergency line be set up please call',?
+'calgary now local state emergency lot evacuation road closure stay safe',?
+'update part calgary evacuate heavy rain flood alberta',?
+'sign remind walk apocalypse stuff',?
+'people evacuate flood alberta can use taylor hall forehead life raft get safety',?
+'town declare state local emergency due flood red deer river',?
+'water now flow over pathway prince island park',?
+'due flood closure two lane memorial centre nw plan',?
+'motorist contend cascade water over highway lake',?
+'order affect area or entire neighborhood mission map',?
+'rainfall warn end calgary flood potential still exist',?
+'alberta close rain continue flood',?
+'update victoria park cliff bungalow add evacuation order flood',?
+'city calgary expect people force home flood',?
+'risk drown today heavy rain night thank goodness live high up hill safe',?
+'emergency alert come radio amp tv amp flood alert',?
+'photo flood discovery ridge',?
+'map evacuation can found here',?
+'picture flood calgary alberta so',?
+'pray people hometown calgary tonight water rise high school flood zone',?
+'due rise water level lower deck centre street bridge be close',?
+'park much leave',?
+'build evacuation zone staff leave now still have reporter amp shooter amp',?
+'please keep u update volunteer need id love help way can',?
+'city update roads downtown core be close memorial drive close',?
+'release boil water advisory calgary zone',?
+'open residence evacuate due need lodge visit response centre fir',?
+'city calgary boil water order',?
+'tornado warn edmonton then flood calgary',?
+'man swim hi cat',?
+'believe week calgary hope keep safe',?
+'city calgary newsroom good source latest release',?
+'community have power gas cutoff may see have no utility please ev',?
+'guy tell be calgary thunderstorm watch flood',?
+'now there bad flood alberta oh no think western neighbour tonight flood',?
+'check here see area montgomery must evacuate',?
+'alberta stay safe dry flood affect area',?
+'mandatory evacuation order calgary flood people may affect',?
+'cant believe it stay safe',?
+'live feed bow river street bridge',?
+'go out folks calgary look bad one time hope evacuee get out safe',?
+'bow crescent flood view silver spring hill calgary',?
+'there lower bridge deck bridge',?
+'please note be cancel up affect need stay safe please',?
+'please evacuate follow area please',?
+'map evacuate area city calgary',?
+'please note be cancel up affect need stay safe',?
+'city calgary boil water order',?
+'peace bridge look southwest',?
+'city red deer declare state emergency',?
+'now devote effort keep people flood alberta hope safe',?
+'picture worth risk person or emergency responder avoid river',?
+'follow take over tweet reach twitter limit main',?
+'watch live stream bow river',?
+'take over tweet have reach twitter limit main account',?
+'have exceed tweet limit follow update',?
+'accord official flood expect reach familiar calgary km',?
+'thank team who work fortify network load sandbag monitor',?
+'update calgary centre be evacuate due flood concern',?
+'stay safe alberta',?
+'please avoid downtown can tomorrow there number road closure',?
+'please stay clear downtown tomorrow can there number road closure',?
+'thank send troop help u',?
+'river now get dark grind now stay safe',?
+'expect service disruption tomorrow',?
+'please stay clear downtown tomorrow can there number road closure',?
+'detail let remember night go twitter jail',?
+'bridge pm',?
+'heart go out flood victim alberta pray rain',?
+'flood force home canada epoch time',?
+'evacuate area',?
+'think stay safe',?
+'two two calgary zoo move animal ground now',?
+'please safe tonight please work home friday due road closure',?
+'good news sheep river appear have peak water recede',?
+'hope fire department em request twitter traffic limit future',?
+'alberta flood',?
+'expect tour high river area tomorrow',?
+'chick calgary need lodge flood can have be ill sleep floor tonight',?
+'former host bower join show give u eyewitness account calgary flood',?
+'head up take over tweet reach twitter limit main ac',?
+'reminder catholic school board school let child know',?
+'please stay clear downtown tomorrow can there number road closure',?
+'feel like nobody realize first day summer calgary',?
+'road closure part elbow drive flood watch close off stay use alternate rout',?
+'today tweet topic twitter calgary flood video north west',?
+'thank make fun u google jerk',?
+'pray alberta',?
+'front page lead story',?
+'reminder catholic school board school let child know',?
+'bridge close amp av nw dam nw close',?
+'flyover downtown off memorial close downtown hit bad',?
+'mandatory evacuation community alberta flood evacuate calgary',?
+'feel be evacuate floor trust me water get there be screw',?
+'avoid nonessential tomorrow go have',?
+'happen animal zoo',?
+'tribute calgary flood',?
+'good hand one best mayor out there',?
+'please stay safe calgary sun reporter staff city flood briefing morning amp tweet there',?
+'open residence evacuate due need lodge visit response centre fir',?
+'drive power off weird scene no flood',?
+'thank kind compliment even help us go night',?
+'alberta flood bragg creek high river flood calgary fl',?
+'hear much homeless glad look out tonight',?
+'alberta gas leak continue extreme flood prevent shutdown',?
+'bear weekend cant go downtown drink',?
+'people force home heavy flood western canada water level peak today noon',?
+'work tonight reveal truth connection alberta flood',?
+'flood may force west canada home',?
+'news canada flood force home people force',?
+'up close look centre street bridge flow lower deck courtesy',?
+'city say number bridge core close bridge be assess',?
+'clarify rumour there no zoo animal be shelter court',?
+'loop west canada flood force flee home',?
+'alberta awake more rain flood crest near',?
+'straight avoid travel necessary calgary',?
+'west canada flood force flee home',?
+'apology friend close today shut down',?
+'heavy flood canada may force people leave home',?
+'situation flood calgary home safe',?
+'stun image zone',?
+'mandatory evacuation information include location map check here',?
+'photo extreme flood canada may force home today man swim hi cat',?
+'win friend mt regular park rate effect today',?
+'must see flood pic high river ab high river',?
+'watch house float down river alberta flood',?
+'clarify rumour there no zoo animal be shelter court',?
+'corner macleod june',?
+'stay downtown say mayor latest news here stay inform free',?
+'look park flood',?
+'watch house wash flood river canada crash bridge',?
+'pray alberta',?
+'friend calgary amp alberta stay dry city remain flood alert rise river',?
+'there be report death result flood',?
+'alberta flood do happen',?
+'wow stun memorial drive',?
+'panorama city scotsman hill',?
+'positive note now have story tell grand kid while hang old folks home',?
+'flood extreme rainfall hazard emergency alberta call get hour kit better prepare',?
+'amp pledge coordinate response flood',?
+'discovery ridge home dry d waterfront condo',?
+'update flood evacuation area',?
+'bow deck',?
+'flood alberta no',?
+'say take pic river water down macleod',?
+'oh sister send me pic macleod se',?
+'reporter come cd bring ibuprofen cluster competitor pay dollar',?
+'photo calgary flood',?
+'break troop be deploy help flood alberta',?
+'see city bad macleod stay safe',?
+'may want avoid calf robe bridge close',?
+'oh so close me trail photo',?
+'alert calf robe bridge close drive free news today',?
+'think resident affect neighborhood alberta flood',?
+'bridge few block family place calgary crazy flood stay safe',?
+'amount flood evacuation neighborhood take place calgary',?
+'school close tomorrow ask people avoid come downtown core possible',?
+'watch footage crazy stuff stay safe calgary red cross donation be accept interest',?
+'flood discovery ridge calgary june flood',?
+'memorial drive prince island',?
+'show support people affect alberta flood donate',?
+'dirt berm elbow river break mission neighborhood calgary flood',?
+'calgary avenue',?
+'family safe have full box yorkshire tea',?
+'organization doubt usefulness benefit social medium today',?
+'doodle more unfortunate today fail d',?
+'help full force come there go troop',?
+'think leave yesterday electricity shut food fridge freezer',?
+'so much water street walk day downtown look it school flood',?
+'red cross respond alberta flood',?
+'picture downtown calgary morning',?
+'can smell gas calgary hazmat response team arrive federal harry hay build',?
+'watch live speak alberta flood',?
+'time crisis people judge react people world',?
+'latest news flood may force west canada home abc news abc may force',?
+'be trail',?
+'power be shut off evacuate community safety citizen first responder',?
+'stampede race track',?
+'pic nut think thousand affect',?
+'google map show evacuate area much downtown evacuate community',?
+'hour get wind send so love responder amp city worker work',?
+'elbow fall flood now few hour stay safe calgary',?
+'google map show evacuate area much downtown evacuate community',?
+'corner macleod june welcome first day summer',?
+'calgary flood put police twitter jail crash city website',?
+'flood calgary lot more be lead believe sandbag',?
+'army truck roll prayer help',?
+'despite mayhem repair guy arrive time replace thank',?
+'know flood mere block us look east sw',?
+'here shoot se morning',?
+'think prayer affect flood',?
+'flood row dress room destroy so rink',?
+'evacuate shelter calgary',?
+'break water up row dress room submerge',?
+'upper deck centre bridge close',?
+'devastate mb flood view high river ab wow',?
+'amaze shoot scotsman hill right now',?
+'oh dear break water up row dress room submerge',?
+'here part calgary look like right now crush image',?
+'city calgary boil water order',?
+'river alberta',?
+'high river view high river wow',?
+'break water up row dress room submerge',?
+'look sound think people affect',?
+'stay safe dry today calgary',?
+'break water up row dress room submerge',?
+'inundation victoria park',?
+'wow shock see flood water downtown calgary',?
+'alberta premier warn flood come ab environment flood disaster',?
+'stay safe alberta',?
+'want help out page way can help clean up calgary ab',?
+'flood water expect peak noon local time today alberta canada',?
+'harper en route calgary tour flood damage accompany alberta premier redford',?
+'water flow over spillway dam river',?
+'please say little prayer friend calgary stampede use it',?
+'police cruiser abandon off memorial drive photo',?
+'evacuate ne need pillow blanket',?
+'so much history destroy dome include championship team photo sign player',?
+'nashville north dome flood view',?
+'flood water cougar creek continue wreck havoc bank',?
+'downtown calgary se',?
+'upside tragedy act kindness',?
+'thousand evacuate canada flood picture flood alberta cause torrent',?
+'hope love stay safe',?
+'calgary zoo move lion tiger cell calgary court house yes read',?
+'oh calgary downtown calgary se',?
+'sunday june anthony catholic church anniversary picnic cancel',?
+'calgary flood balcony mission now high',?
+'build arena grind flame',?
+'zoo bridge yesterday grade',?
+'high river boy miss due flood call police see',?
+'photo red circle train tunnel downtown calgary',?
+'city say there no concern over drink water quality time water supply remain',?
+'heart go out flood victim alberta pray rain',?
+'mt em work agency no bridge closure no boil water advisory',?
+'think alberta effect',?
+'downtown calgary evacuate more building become compromise flood',?
+'hear flood time it it happen home',?
+'volunteer book store main street flood amp need volunteer help move book talk',?
+'mt zoo animal need move out zoo place go jail say city',?
+'think dub day alberta who me',?
+'downtown calgary se',?
+'safety please stay waterway time can',?
+'water still rise east village up stairs orange lift entrance',?
+'oh take soak wet walk reservoir overflow expect',?
+'cant remember see so hope safe end',?
+'picture stampede grind',?
+'direct outage downtown core advise safe restore power',?
+'hope get animal out calgary zoo',?
+'amp help evacuate people no heat water or power',?
+'please note quarry park flood allow people community',?
+'water up row',?
+'mennonite disaster service monitor flood alberta see can respond donate go',?
+'foot vancouver heart alberta good vibe love affect flood',?
+'watch news right now like watch horror film',?
+'footage tree fall bow near memorial',?
+'there no boil water advisory place water treatment plan quality remain high',?
+'so impress calgary handle flood emergency service city official staff amp medium keep u well inform',?
+'show sled island festival be cancel due flood stay safe calgary',?
+'wet',?
+'think affect stay safe',?
+'arrive offer assistance citizen calgary thank',?
+'western canada hit heavy flood people have flee home heavy flood wash',?
+'alberta premier redford call flood',?
+'live evacuation be good thing',?
+'like see craziness',?
+'concern safety due flood hope ok believe near calgary see',?
+'fly see flood look air finger cross calgary',?
+'pic firefighter mission need go please share',?
+'be see flood happen world hit city hit heart',?
+'news cat safe so owner escape truck',?
+'pic firefighter mission need go please share',?
+'free local long distance amp text mess customer limit call keep line open',?
+'catch fish outside home block river forage',?
+'flood calgary crazy',?
+'glad see partner south fish creek recreation association come welcome evacuee',?
+'saw today curl',?
+'stay safe friend',?
+'east elbow park',?
+'alberta flood sign climate change',?
+'canadian red cross set up direct way help out re alberta flood donate here',?
+'list current road closure',?
+'flood force downtown evacuation canadian city calgary force home m',?
+'air shoot extent zoo flood',?
+'here can help out provincial neighbour alberta matt',?
+'military help calgary alberta cope record flood city calgary',?
+'calgary love community spirit best way help stay home off roads',?
+'check out city blog update affect area',?
+'there no boil water advisory effect water quality good',?
+'pic firefighter mission need go please share',?
+'rcmp statement news there may casualty high river',?
+'pray dam give out',?
+'insurance company brace flood claim',?
+'flood calgary right travel east so fuck',?
+'despite safe water supply flock stock up bottle water',?
+'send love earl tin palace stay safe friend',?
+'tell me people flood home have insurance flood insurance exist home canada',?
+'flood force evacuation downtown calgary resident flood force western canadian city',?
+'email uncle la hear down here calgary flood dumbass anchor say happen',?
+'cant stop watch devastation calgary medicine hat hometown stay safe help neighbour',?
+'can see car photo macleod trail water courtesy berg',?
+'shaw go wifi network be open shaw customer who need internet access',?
+'disaster like make realize importance take things grant',?
+'think alberta affect',?
+'medium report reservist edmonton stage deployment calgary',?
+'thank photo take',?
+'due lack space ask donation bring ne',?
+'flood calgary alberta canada',?
+'pic firefighter mission need go please share',?
+'downtown now evacuation order so',?
+'brief',?
+'saturday game be cancel flood alberta no make up date time',?
+'canada volunteer tell need volunteer',?
+'out near high river devastation rise water',?
+'pic firefighter mission need go please share',?
+'people evacuate alberta',?
+'mine twitter help alberta flood response here',?
+'think alberta affect',?
+'reminder call call call case emergency',?
+'observe swear clothe get wreck flood sue calgary piss',?
+'photo erin road wash close home',?
+'provincial cancel have see happen agree decision provincial',?
+'convenience store price gouge there surprise',?
+'address volunteer staff acadia centre',?
+'calgary close me pray people out there who have be affect flood',?
+'stranger open home calgary flood victim shock photo damage do flood in',?
+'why do care lawyer',?
+'stick house today here fun activity do kid',?
+'be now hear may water',?
+'raw video downtown calgary flood news video',?
+'take advantage',?
+'flood force evacuation downtown calgary canada',?
+'think prayer flood victim calgary',?
+'look info flood alberta follow',?
+'heart amp think impact flood amp evacuation alberta safe amp take care one',?
+'make even donate text donate support',?
+'live stream special calgary edition right now',?
+'tell me people flood home have insurance flood insurance exist home canada',?
+'pm june whoop up highway remain open',?
+'change today doodle show support alberta emergency',?
+'say do nobody go queensland liquor',?
+'smile no matter situation can be',?
+'south fish creek recreation complex reception centre full',?
+'amp head way report tweet me',?
+'devastate please stay safe affect flood calgary',?
+'get donation stuff flood majority people calgary who affect well',?
+'live calgary right now',?
+'flood water now up row',?
+'customer make donation help affect region',?
+'prime minister harper survey damage high river overhead',?
+'gaucho brazilian barbecue hop safe be wish fast recovery alberta community who affect flood',?
+'please share water still safe drink please conserve',?
+'live city wake up be see backyard float stay safe calgary',?
+'please city ask limit water use much possible thank',?
+'keep calm',?
+'blog alberta flood sign climate change ask',?
+'thank who out there work protect u albert',?
+'heart go out affect flood western canada love prayer entire si',?
+'need place nw area have be few days',?
+'flood kill force calgary home',?
+'take empty one cup',?
+'company like need wake up call please help spread word',?
+'calgary may flood stream live',?
+'search mother who name theresa taylor old',?
+'price fix emergency act individual prosecute say city director',?
+'pic firefighter mission need go please share',?
+'remember out buy emergency flood beer grab can fucker float',?
+'amp pour tout ce travail',?
+'collection photo flood alberta wow',?
+'panorama stampede grandstand above',?
+'please city ask limit water use much possible thank',?
+'give prop mps local like fire police mayor',?
+'thousand flee flood western canada least four people fear dead canada alberta province a',?
+'please city ask limit use much possible thank',?
+'know do flood here tip',?
+'flood unbridle misery think wish swift recovery battle alberta high',?
+'flood unbridle misery think wish swift recovery battle alberta high',?
+'ill donate up get help someone affect flood calgary high',?
+'calgary june calgary trail golf course',?
+'join emergency reception centre support open residence bed',?
+'flood kill three force calgary home',?
+'do know flood insurance exist canada text donate support',?
+'have wrong photo credit amaze fireman flood relief pic',?
+'flood kill force calgary home',?
+'city ask limit water use much possible thank',?
+'flood alberta force evacuate',?
+'great article why have so much rain',?
+'flood unbridle misery think wish swift recovery battle alberta high',?
+'bow river sunset douglas ridge crescent playground',?
+'best have be evacuate need shelter rest take',?
+'wow flood light ramp drive down arena floor',?
+'toronto mayor rob ford offer support flood calgary resident official deal flood th',?
+'flood kill two force calgary home flood kill two force calgary home calgary',?
+'beauty tragedy calgary flood',?
+'ok calgary let give love it',?
+'manitoba issue flood warn pas saskatchewan river rise alberta flood water move east',?
+'heat wave alaska flood alberta killer smog singapore warn stuff crap let laugh',?
+'power out downtown calgary days',?
+'prayer go out calgary stampede flood prayer',?
+'video evacuate say flood worst see watch video yahoo news canada',?
+'go rough week kid displace home movie theater want host free kid movie',?
+'know sandbag use amp can carry things out basement do want help',?
+'flood shut down canada oil capital two kill say',?
+'save mean possible stun flood image calgary alberta people be save w',?
+'calgary',?
+'canada flood engulf downtown calgary flood engulf downtown',?
+'prefer communicate like update page',?
+'calgary hit flood hit western canada',?
+'extreme weather add up trouble future poor community no support like calgary die',?
+'nature send message flood calgary medium make no mention human wellness',?
+'downtown calgary evacuate flood take turn worse',?
+'donate m relief k work w community partner',?
+'calgary firefighter',?
+'rain flood calgary landmark',?
+'fill row up get pic wow',?
+'wish friend emergency service worker safe weekend',?
+'think prayer friend calgary weather record flood stay albert',?
+'plaque river show foot difference june now',?
+'ill donate up get help someone affect flood calgary high',?
+'mt boycott hotel',?
+'flood alberta canada force flee',?
+'price fruit tray normal',?
+'thank so much support appreciate',?
+'drop centre ed ne need sock underwear back pack course toiletry',?
+'high water level alert take necessary precaution vulcan county',?
+'swim sensation cat escape alberta flood',?
+'die flood force calgary home',?
+'force out home alberta flood alberta community state emergency',?
+'tunnel come core oh',?
+'evacuation remove flood water recede director bruce',?
+'water quality good ask reduce water usage reduce demand treatment plant',?
+'hug evacuate senior fish creek evacuation centre',?
+'least three kill evacuate day flood calgary',?
+'calgary flood heater weather warfare',?
+'calgary red arrow trip schedule choose cancel or change trip may do so charge',?
+'least three dead canada flood force calgary evacuation',?
+'photo love pic police keep street safe',?
+'story',?
+'photo calgary courtesy',?
+'alberta flood rogers donate k red cross google create crisis map',?
+'there two group work emergency operation centre one reentry plan infrastructure',?
+'wow photo damage inside',?
+'photo damage inside',?
+'flood canada downtown calgary evacuate',?
+'chat first responder calgary thank work',?
+'house calgary',?
+'alberta brace rain flood warning least people alberta have now be order',?
+'one more photo calgary flood yesterday oh no hope',?
+'twitter first response',?
+'neighbourhood reopen calgary flood situation improve',?
+'rise flood claim tie climate change article',?
+'mp announce federal conservative party calgary convention weekend postpone due',?
+'conservative postpone weekend convention calgary flood water',?
+'fail snake oil salesman david sign climate change',?
+'city official speak medium',?
+'photo damage inside',?
+'there organization can use volunteer right now people show up wed love refer',?
+'remain cover one more hour aerial picture out last hour',?
+'excite opportunity learn have minute shower',?
+'donate shopper optimum point store canadian red cross flood relief effort alberta',?
+'seem one flame',?
+'lose cat evacuate downtown condo come us can find',?
+'calgary downtown evacuation zone extend west amp east',?
+'no special flood treatment stampede grind say city calgary',?
+'please pray victim alberta flood',?
+'thank response be',?
+'banff marathon cancel due flood situation alberta runner rally help flood',?
+'look downtown core business be close due wednesday me',?
+'thank generosity text reach give proceed recovery',?
+'canada flood three kill water threaten calgary news',?
+'rain pour',?
+'google crisis map give good overview flood spot city',?
+'saw c approach',?
+'accept donation assist people affect flood alberta',?
+'photo blog post walk south park share',?
+'think rain come',?
+'alberta offer day storage affect',?
+'tweet support affect calgary flood include',?
+'quiet downtown noise water drip siren',?
+'can ab hours who need body volunteer',?
+'donate k birdie amp k eagle week relief mat',?
+'listen heart description flood calgary resident hr',?
+'get tail end flood albert',?
+'it look mess ready dive start clean',?
+'mission submerge take holy cross hospital rooftop',?
+'answer faq',?
+'good home',?
+'king say do anything can accommodate schedule necessary light flood',?
+'wow take prince island thursday now it cover',?
+'it start feel so aerial photo flood prince island park',?
+'do deliver',?
+'normal go get wet storm',?
+'canada oil capital shut days flood',?
+'aerial photo flood calgary stampede grandstand',?
+'who need see pic like today',?
+'news federal tory delay calgary convention due flood toronto sun',?
+'bow river weir look west calgary',?
+'cushing bridge connect blackfoot trail now close due deteriorate condition',?
+'aerial photo flood calgary stampede grandstand',?
+'network who wish donate text',?
+'panorama macleod flood recede calgary',?
+'photo inside',?
+'dam',?
+'please spread word flood worker emergency crew come get meal',?
+'column high river transform ghost town',?
+'latest pix flood tc bridge construction even tell it there',?
+'flood submerge part flame arena two river converge western canadian city calgary ov',?
+'flood go row',?
+'have stop thank amaze first responder province',?
+'public school amp catholic close monday',?
+'well play',?
+'public school amp catholic close monday',?
+'dog find near cop no tag please call',?
+'calgary stampede answer or proceed year',?
+'underestimate power mother nature highway no longer exist',?
+'italy alberta brace flood more community canadian province alberta',?
+'look set up fundraiser canadian red cross alberta flood relief fund',?
+'work keep east safe',?
+'berm be rebuild redwood meadow',?
+'swim sensation cat escape alberta flood cat',?
+'think family try time much love',?
+'bike path minutes medicine hat alberta',?
+'tackle adversity overcome obstacle people community know cowboy up',?
+'river rise difference hour',?
+'stephen e no one here nothing go',?
+'scene power outage banff lake report',?
+'here story diploma exam situation',?
+'pedestrian skateboarder',?
+'calgary time come need now call',?
+'river rise difference hours',?
+'picture take downtown calgary today video come',?
+'hit link song amp photo ballad crowfoot',?
+'close town secondary',?
+'lake dam fail see latest banff info',?
+'believe golf course canadian golf academy drive range background',?
+'good job out there hope sleep keep up good work',?
+'power restore more calgary home today more come list outage',?
+'photo beach park discovery ridge downtown',?
+'climate catastrophe like alberta flood have potential shatter career',?
+'alberta transportation official road report',?
+'send out love friend calgary hit flood hope relief find way',?
+'medicine hat start share flood subscribe update',?
+'well see recovery stampede',?
+'why respond disaster like alberta flood refuse deal climate change',?
+'calgary cope w record flood study point increase risk river flood warm world',?
+'update flood response alberta',?
+'holy cow calgary downtown power out month possibility fire chief',?
+'boycott hotel',?
+'let take time say thank',?
+'great resource latest information city calgary pass',?
+'water recede good news',?
+'create alberta flood relief fund need now give site disaster relief',?
+'alberta flood zone development mistake former say',?
+'behind scene look emergency ops centre',?
+'think affect thank amaze volunteer first responder keep city safe',?
+'man yell thank military truck pass',?
+'biz owner pump out basement',?
+'water crest over dam',?
+'interest story amaze coordination amaze job',?
+'cant even imagine flood',?
+'make difference alberta visit participate store make donation red cross',?
+'more help roll down sight calgary thank',?
+'need root reminder leader donate birdie eagle alberta flood',?
+'walk dead calgary ab wow wow photo courtesy',?
+'info space run out tc bridge',?
+'federal government ready foot bill alberta flood damage canada immigration minister jason ken',?
+'shut pipeline spill cause',?
+'alberta environment chart compare elbow river flow bragg creek flood',?
+'one basement saw morning calgary here story return tonight',?
+'thank try calgary drawing like hang emergency ops centre',?
+'collect donation today first nation impact y',?
+'rcmp urge caution patience cross bridge medicine hat one lane open way',?
+'donation make please do part assist',?
+'calgary here helicopter patrol downtown core last night',?
+'view office window lot debris north saskatchewan river',?
+'local devon fire hydrant send me picture water least lower',?
+'list community mandatory evacuation still place visit',?
+'let pull city check out volunteer calgary flood donation drop off point',?
+'story help include who el',?
+'jay care donate support alberta flood relief',?
+'feel love volunteer ghost town no more mission',?
+'thank today share be give help calgary flood relief',?
+'may park cpa surface lot or centennial charge tomorrow',?
+'donate alberta flood fund',?
+'need volunteer trail ne or call info',?
+'official say highway bridge close pm divide medicine hat',?
+'it quiet down here medicine hat',?
+'flood still washington community reserve',?
+'medicine hat plan close bridge',?
+'have no idea much wish there help out',?
+'final exam cancel due flood good thing bring d bless calgary hallelujah',?
+'guy stand outside mission zone slap his belly scream denim',?
+'accept donation assist people affect flood alberta',?
+'plenty food coffee neighbour need relief please join u',?
+'fire crew staff bus head help cleanup effort',?
+'two calgary transit tunnel damage no timeline restore downtown',?
+'nothing like see amp take marshal resource',?
+'thank lead relief effort wed like offer donation assist work',?
+'force unpack supply amp material sunday',?
+'things like keep u go hour work week thank',?
+'keep calm stampede survive prosper',?
+'pull mt fire crew staff bus head help cleanup effort',?
+'do live make life eliot',?
+'morley look take food water eden valley',?
+'love letter city calgary flood',?
+'tan thunderstorm sound fun stay safe',?
+'litre oil leak pipeline northern alberta last night company say cleanup hamper flood calgary',?
+'today begin rebuild read full statement here',?
+'heavy erosion pavement',?
+'people have lose seem like no one even care help bring attention flood calgary',?
+'day cleanup flood flood',?
+'south ab flood relief fund support local charity help impact give cc',?
+'okay calgary see news flood',?
+'folks back home use help devastate flood alberta',?
+'na silt mud well make out top mission',?
+'stay out downtown calgary monday tuesday essential',?
+'pic flood now',?
+'regard transit affect request source',?
+'local red cross volunteer head calgary thousand people calgary return flood ravage ho',?
+'flood west museum',?
+'great place donate give supply individual displace charity amp first nation',?
+'record begin calgary nine flood occur now',?
+'elderly woman found dead apartment flood calgary police believe woman choose defy manda',?
+'traffic ramp sb wb open',?
+'good morning get latest record flood alberta morning news run tune detail',?
+'help update info help recover',?
+'devastation',?
+'awe read blog post must read',?
+'evacuate area must remain evacuate it still safe enter flood area',?
+'need resource need help house men centre hope who relocate',?
+'calgary zoo announce small number animal death flood y',?
+'please visit information',?
+'calgary zoo announce animal death flood',?
+'view inside flood basement can see high water be',?
+'five local state end city amp county cypress county red deer pass',?
+'continue assist affect flood alberta want help donate here',?
+'good news water recede rid lot more fun now',?
+'meet stadium help out calgary flood victim detail',?
+'calgary zoo announce animal death flood',?
+'sea volunteer so it threaten overwhelm official',?
+'flood update clinic calgary close sit due flood edmonton red deer open so keep',?
+'thank calgary have enough volunteer stadium today task',?
+'support continue assist affect flood donate here',?
+'au student be affect flood alberta schedule write exam',?
+'do free today evacuee worker please',?
+'live evacuate area here can go get mail',?
+'know need help week walk distance let me know lot time spare no car',?
+'mt stack water nation still need mat clothe men shoe diaper amp underwear',?
+'one two miss canoeist found dead northern alberta river',?
+'alberta government news release amp pledge billion aid cleanup amp rebuild',?
+'right wing medium need science class calgary',?
+'flood watch cover catastrophe calgary',?
+'poor poor harvey hound',?
+'take moment think work nurse alberta flood think sister brother amp',?
+'stampede recovery calgary rodeo go plan',?
+'poor poor harvey hound',?
+'know fundraise initiative tweet me link try get air',?
+'calgary flood help out',?
+'donation people calgary can make phone or line or',?
+'friend safe little',?
+'survey damage hide valley damage',?
+'more good news dwelling outside downtown core have be clear',?
+'volunteer take mask headlamp rubber bug spray sunscreen bucket',?
+'pump out people basement no charge call calgary',?
+'amp few days be it amaze see so people come help out',?
+'appoint associate minister recovery reconstruction province pledge billion relief',?
+'happen canada care calgary shut down year dozen reserve flood',?
+'alberta promise c flood fund wont balance budget',?
+'please send think people due major flood',?
+'filter make basement look better',?
+'get screech mission condo',?
+'like do can medicine hat',?
+'dinner time thank police headquarters tonight',?
+'calgary flood story',?
+'people offer up type service victim amaze',?
+'debit card evacuee ready wed register or red cross more info come',?
+'hate innocent animal suffer poor poor harvey hound',?
+'lovely surprise hopeful video tomorrow calgary flood',?
+'today mayor address troop thank reservist help',?
+'clean up trail',?
+'morley reserve no drink water please send bottle water way can',?
+'use macleod trail',?
+'rubber boot then cowboy boot',?
+'calgary heart go out affect flood',?
+'alberta flood',?
+'calgary resident mandatory evacuation order city epic flood',?
+'car cover silt leave elbow ticket city',?
+'twitter tip keep post char or so link get',?
+'home depot canada donate help alberta flood victim wall street journal home depot',?
+'wow calgary photo cline now flood water have recede photo',?
+'crew have problem get water out way electricity',?
+'hotel store business alberta have raise price flood greed',?
+'alberta pledge billion first phase recovery',?
+'want highlight people step up wake flood report hero',?
+'flood damage alberta run high b',?
+'get scuba tee proceed go relief red cross',?
+'debit card update register evacuee relief card call',?
+'gather cleanup effort today ill join can keep me post location',?
+'have hear red cross challenge',?
+'alberta shelve major flood report six years',?
+'calgary office remain close today staff continue work home',?
+'hell or high water stampede',?
+'full detail disaster recovery amp application announce info post',?
+'get community service crew out help mission crew contact me',?
+'hell or high water proceed donate alberta flood relief',?
+'full detail disaster recovery amp application announce info post',?
+'kid superman here save alberta',?
+'note cbc show well good',?
+'calgary flood may canada flood history',?
+'thousand people remain evacuate home province',?
+'white hat man now jason pa drive his vac truck pump basement free',?
+'so constituent',?
+'today flood tip want catch fish laundry basket',?
+'reason why',?
+'member text or rouge donate phone bill help support alberta flood relief effort',?
+'flood bring stress entire family include kid here tip help kid who have be affect',?
+'want help need transit donation',?
+'need help due call u reduce rat no overtime flood victim be here help',?
+'calgary office remain close due recent flood occur alberta update visit',?
+'while still want double up donation adam thank do please',?
+'update hop restore power thursday',?
+'please check blog latest course opening closing course reopen week',?
+'wonder do right now',?
+'calgary flood trigger oil spill mass evacuation',?
+'calgary stampede sell hell or high water rope money alberta flood victim',?
+'water restriction remain place',?
+'reopen tomorrow urge commuter use transit or bicycle',?
+'amaze compilation video calgary flood give full impact god bless hero life',?
+'great day clean out basement help get calgary back foot flood it great see',?
+'calgary flood trigger oil spill mass evacuation',?
+'get mine proceed go flood fund',?
+'hippo escape',?
+'info flood relief debit card',?
+'mt move compilation photo view video',?
+'report help need dispatch volunteer amp equipment need volunteer go there first',?
+'forgive ignorance there chance hippo have survive bow cold current kill',?
+'flood mayor demonstrate leadership compassion directness humor one guy',?
+'calgary flood cost economy billion',?
+'question come calgary flood response high do rise his performance crisis he',?
+'have share thing happen tragedy morley cochran',?
+'busy day crisis communications today help city neighbour',?
+'touch grace humility amp generosity show citizen city river rip last few day',?
+'so hometown mayor ask volunteer help clean up show up',?
+'hippo escape calgary zoo flood here year',?
+'uplift see community can come time need kudos help see positive',?
+'cent downtown building ready energize',?
+'extend state local emergency days',?
+'need help today resident senior need help hit area',?
+'mt news be turn stampede breakfast block party fundraiser',?
+'alberta farm ranch avoid catastrophe flood aba',?
+'found drive flood cleanup data calgary',?
+'appreciate prayer city affect downtown calgary flood news video',?
+'give back family affect off fashion amp footwear start today',?
+'amaze spirit calgary post cleanup',?
+'download red cross flood recovery guide share',?
+'return flood',?
+'driver amp birth certificate lose alberta flood can replace free more information visit',?
+'advice keep water help out neighbour',?
+'why need stampede year nonprofit struggle donation flood',?
+'let make canada day day citizen return downtown great idea',?
+'now tell story group woman who decide last night go help know homeowner overwhelm',?
+'definition hope see dumpster come down road hope it',?
+'stay tune super cool way donate victim alberta flood',?
+'incur expense evacuation amp flood damage budget',?
+'alberta flood bragg creek high river flood calgary',?
+'who leave get money yay mandatory reason flood',?
+'news calgary calgary state local emergency extend week wake flood',?
+'uniform meal today wed free well effort people appreciate',?
+'face show up help calgary flood victim',?
+'mayor amp mt stay amp off river',?
+'thank guest who have donate over so far red cross flood fund',?
+'need volunteer driver afternoon morley',?
+'think daisy duke way go say',?
+'queen accommodate incoming student flood area alberta student part o',?
+'calgary centre postpone further notice due',?
+'news crew work pay off open lane near way go',?
+'foodie news sweet relief alberta flood victim thank donut',?
+'community support centre open help citizen small business connect essential service',?
+'item need need grocery store gift card bus pass',?
+'employer canada unite state take up collection fine establishment help flood',?
+'update say giraffe do much better today',?
+'why speed reduce',?
+'worker who have lose five days or more work can apply',?
+'warning victim price gouge fake charity report',?
+'do part clean up amaze support',?
+'continue help family friend community clean up top priority',?
+'help resident discovery help get relief',?
+'alley burger original alley free burger or donation red cross',?
+'great news here go calgary bridge now open',?
+'history suggest may take time ottawa foot cleanup bill',?
+'share tweet donate relief calgary',?
+'wilson donate relief spread word plea',?
+'wilson garden party amp give recovery',?
+'hear donate relief thank',?
+'donation relief use up k please',?
+'support impact donation red cross relief effort thank',?
+'calgary centre reopen amp affect client bring back afternoon',?
+'remember blue bin pick up be suspend city',?
+'get shirt',?
+'still stand donate tweet max',?
+'friend commit k relief tonight so far k go',?
+'donate tweet max spread word',?
+'make even donate text donate support',?
+'car sweep newsroom evacuate calgary newsroom deal worst flood alberta history',?
+'sell alberta rise donut proceed flood victim sound like good reason eat donut',?
+'thursday morning update donation assist alberta first nation impact flood',?
+'let figure out way give someone out home or responder',?
+'closeup derail train',?
+'few moment talk go bridge amp issue',?
+'due traffic concern cancel fri stampede breakfast downtown campus',?
+'people who have volunteer flood relief like speak journal shoot me tweet or dm',?
+'bridge inspect last rail car thank advance',?
+'praise electrician volunteer w crew',?
+'photo may destroy please',?
+'look interview people story victim volunteer official contact me',?
+'v son',?
+'nice effort wilson garden party give',?
+'nice effort wilson garden party give',?
+'show solidarity alberta first nation devastate flood solidarity',?
+'please share',?
+'relief effort ill donate follower bw now mt ur',?
+'so shaw van head calgary nanaimo aid',?
+'location tomorrow green clean chemical donation pickup change location update',?
+'love shout out great place donate support',?
+'smash worth liquor dome today wash bobcat window bottle patron',?
+'lady clean up awe',?
+'watch yr',?
+'resident homeless worry abandon firearm',?
+'organize own cleanup team so',?
+'city expand water pump include business',?
+'update native reserve issue appeal donation volunteer',?
+'mr sun sun mr sun please shine down dry up flood water',?
+'donate doughnut volunteer',?
+'member can donate mile red cross help flood victim alberta amp',?
+'donate weekend sale alberta red cross flood relief great sale boot',?
+'sunday tide wash clothe free coin laundry',?
+'chart show water flow year flood',?
+'calgary foundation establish flood recovery fund great place make donation',?
+'more alberta flood impact artist calgary artist green blog',?
+'red fm raise amp item calgary flood victim go calgary food bank',?
+'weather news support alberta flood disaster relief effort june',?
+'much stress dry',?
+'calgary flood spotlight city failure plan climate change',?
+'downtown help relief show support or donate',?
+'spread word be donate sale tip today toronto',?
+'pump need community hall sw fill up',?
+'be donate oil change calgary weekend flood relief fund',?
+'leader calgary store help out great job pic',?
+'mayor high river ask province take over recovery rebuild effort',?
+'go game tonight check out can donate support amp morley',?
+'christ church elbow park food chiropractor amp calm volunteer amp responder y',?
+'reach thing water use tool shovel dislodge or remove debris',?
+'ready re build call company have biz license',?
+'canada day let show national solidarity victim donate recycle proceed',?
+'unload truck fill cleanup kit high river',?
+'anthem alberta flood canadian musician aim lift spirit resident cleanup re',?
+'say welcome back open',?
+'help fellow canadian need alberta flood relief',?
+'hand hope work help victim calgary flood',?
+'anthem alberta flood canadian musician aim lift spirit',?
+'five bus route remain detour drive macleod rough stampede grind',?
+'get alberta flood montage hear amp support alberta flood relief',?
+'soak up canada day celebration city prove spirit dedication re',?
+'cheer follow donate blood make up shortfall ur do',?
+'have estimate million flood damage million lose revenue due closure repair',?
+'ab relief card today please go queen elizabeth high school',?
+'resist thank help get u out pickle',?
+'great news resume class july more info at',?
+'stampede cancel concert series sales hell or high water go high level',?
+'hi please free info session victim wed',?
+'volunteer please enter rodeo ground enter town',?
+'think prayer love affect flood calgary need postpone show week',?
+'think prayer love affect flood calgary need postpone show week',?
+'face flood robinson',?
+'heritage education fund donate canadian red cross alberta flood fund read more',?
+'damage zone permit cpa offer solution stampede',?
+'see impact flood resale calgary',?
+'pic orchid be send business affect flood',?
+'so hear flood calgary show cancel ill back stay safe',?
+'so hear flood calgary show cancel ill back stay safe',?
+'lot good come out disaster lesson',?
+'colleague host fundraiser relief info help out can',?
+'why need develop business continuity plan',?
+'flood mary high school',?
+'calgary flood emergency end flood emergency s',?
+'alberta government protect consumer rebuild',?
+'video alberta flood victim need relief politics',?
+'rest canada understand bad alberta flood be',?
+'calgary hear close flood cant play show come back hold',?
+'calgary hear close flood cant play show come back hold',?
+'think prayer love affect flood calgary need postpone show week',?
+'calgary hear close flood cant play show come back hold',?
+'guess show up mail today',?
+'calgary hear close flood cant play show come back hold',?
+'join alberta flood get tee proceed go',?
+'national chief w nation volunteer morley ab today',?
+'sign rail float safety first go over',?
+'flood flood great photo',?
+'camera crew arrive shoot impend disaster finger cross no',?
+'calgary cant catch break flash flood tonight',?
+'put up swear jar taylor field wed pay alberta flood relief real quick rider',?
+'calgary police post thank agree thank',?
+'wash rinse repeat',?
+'one end canada major flood side forest fire who believe warm now',?
+'calgary flood have get kid',?
+'ontario do free today donation calgary flood relief great',?
+'update fr volunteer fr mt prepare help high river',?
+'calgary flood disaster',?
+'so hear flood calgary show cancel ill back stay safe',?
+'advise raise amaze donor pms stampede',?
+'calgary hear close flood cant play show come back hold',?
+'know area mt high river flood evacuee over lose cat',?
+'update alberta flood relief',?
+'get dirty stampede stampede',?
+'do comedy fundraiser flood relief alberta tonight gladstone hotel please',?
+'jr bad way make friend',?
+'need more rain',?
+'hope back open july still lot summer leave enjoy patio',?
+'reference re train bridge collapse calgary flood city inspect may start point research',?
+'resident upset house flood second time',?
+'toronto appear get storm right now major flood calgary think feel pain stay safe',?
+'calgary flood ontario',?
+'break train stick flood water ontario canada passenger strand',?
+'insurance say cover calgary sewer backup claim',?
+'get fundraiser discover heavy rain have flood venue like irony',?
+'oh toronto hearts',?
+'drake hotel calgary flood benefit be cancel due flood',?
+'event last few day lac train crash toronto calgary flood go',?
+'insurance say cover calgary sewer backup claim',?
+'even think know like need read much',?
+'ticket tow mission get back normal still flood out',?
+'country singer lend hand alberta flood',?
+'well excite full gratitude support',?
+'despite flood calgary stampede back end',?
+'high river native talk flame tv amp flood relief effort video',?
+'high river museum staff shock scope flood destruction calgary herald cr',?
+'so dad best have free time so head high river morning help',?
+'fundraise email exploit calgary flood victim clear raise money',?
+'realize have concussion do happen refer more recovery calgary flood',?
+'request senior who lose need household item',?
+'have donate alberta flood relief',?
+'alberta build rule may change say redford',?
+'money mentor reaffirm service advise alberta flood victim ab',?
+'thank local colony who feed thousand flood evacuation centre albert',?
+'rush move calgary show red deer donate appearance fee flood relief amp pay own expense',?
+'look like raise thousand se stampede breakfast lac m amp relief',?
+'thank mp host relief fundraiser today',?
+'alberta flood increase chance find fossil radio tech news',?
+'cbc calgary alberta unveil flood proof rule',?
+'rule homeowner area do agree ban vote poll',?
+'amaze fundraise concert announce today benefit impact',?
+'stage tour alberta cycle race be change due flood damage area road tonight',?
