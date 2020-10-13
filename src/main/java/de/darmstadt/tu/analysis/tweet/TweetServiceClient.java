@@ -138,7 +138,7 @@ public class TweetServiceClient {
 	public static void main(String[] args) throws Exception {
 		
 		TweetMessage[] tweets = TweetUtils.readTweetJSONFile("disaster-tweets.txt");
-		TweetUtils utils = new TweetUtils("C:\\Program Files (x86)\\WordNet\\2.1\\dict");
+		TweetUtils utils = new TweetUtils("dict");
 		TweetServiceClient client = new TweetServiceClient();
 		client.analyzeTweets(tweets, utils);
 	}

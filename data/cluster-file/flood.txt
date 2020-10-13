@@ -1,3 +1,6 @@
 33| 14.11| -13.14| 'Emergency. We are flooded!!'
 34| 14.25| -13.14| 'We are raising funds for flood relief'
 44| 14.08| -13.151| 'Water water everywhere. But not a drop of water to drink.'
+33| 14.11| -13.14| 'Emergency. We are flooded!!'
+34| 14.25| -13.14| 'We are raising funds for flood relief'
+44| 14.08| -13.151| 'Water water everywhere. But not a drop of water to drink.'
